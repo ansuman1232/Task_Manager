@@ -1,0 +1,14 @@
+.task{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+}
+.buttons{
+    flex-direction: row;
+    justify-content: center;
+    width:100%;
+    
+}
+
