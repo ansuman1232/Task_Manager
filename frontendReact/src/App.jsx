@@ -1,8 +1,8 @@
 import { useState ,useEffect, useContext } from 'react'
-import './App.css'
+import './styles/App.css'
 import { TaskContext } from './context/TaskContex.jsx';
-import Task from "./Task.jsx";
-import InputTask from './InputTask.jsx';
+import Task from "./components/Task.jsx";
+import InputTask from './components/InputTask.jsx';
 function App() {
   const {getAllTasks}=useContext(TaskContext)
   const [tasks, setTasks] = useState([])

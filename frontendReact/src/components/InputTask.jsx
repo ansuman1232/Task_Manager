@@ -1,6 +1,6 @@
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
-import { TaskContext } from './context/TaskContex';
+import { TaskContext } from '../context/TaskContex';
 import { useContext,useState } from 'react';
 
 function InputTask(){
